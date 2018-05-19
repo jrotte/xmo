@@ -1,0 +1,325 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+div[data-reactroot] {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #F7F5EA;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000;
+}
+
+
+#navbarSupportedContent {
+    float: right;
+    text-align: right;
+    margin-left: 0%;
+}
+
+/*Search Button and Input Size CSS*/
+
+
+#homesearch {
+    height: 50px;
+    border: 2px solid #375B60;
+}
+
+#homesearchbutton {
+    background-color: #99D092;
+    width: 80px;
+    border: 2px solid #375B60;
+}
+
+/*Navbar CSS*/
+#navLogo {
+    width: 200px;
+    height: 80px;
+}
+
+.navlist {
+    float: right;
+    text-align: right;
+}
+
+
+.navbar-nav {
+    float: right;
+    text-align: right;
+}
+
+.mr-auto {
+    float: right;
+    text-align: right;
+}
+
+.navbar li {
+    text-align: right;
+    font-size: 15px;
+    margin: 9px;
+}
+
+.navbar-header {
+    float: right;
+    text-align: right;
+}
+
+#homeContainer {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#signup {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+    #signup:hover {
+        border: 2px solid white;
+        background-color: white;
+    }
+
+
+
+
+/*Footer CSS*/
+
+footer {
+    color: white;
+    background-color: #99D092;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.page-footer {
+    text-shadow: 1px 0px 1px #000000;
+    border-top: 1px solid black;
+    font-family: 'Arial';
+}
+
+    .page-footer h5 {
+        color: #375b60;
+        text-shadow: 1px 2px 2px #FFFFFF;
+    }
+
+.footer-copyright {
+    border-top: 1px solid gray;
+    background-color: #375b60;
+    font-weight: bolder;
+}
+
+.footer-copyright-text {
+    margin-right: 5%;
+}
+
+.page-footer a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000;
+    bottom: 0;
+}
+
+
+    .page-footer a:hover {
+        color: white;
+        font-weight: bolder;
+        text-shadow: 0 0 3px #000000;
+    }
+
+
+
+
+
+/*Review Page CSS*/
+
+.searchresults {
+    background-color: indianred;
+    padding-bottom: 5%;
+}
+
+.reviewpane {
+    background-color: lightgreen;
+    height: 250px;
+}
+
+.mappane {
+    background-color: mediumpurple;
+}
+
+
+
+/*Thank you page CSS*/
+
+
+
+.thankyoubody {
+    background: #F7F5EA;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+}
+
+.thankyou-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.thankyoubody button {
+    margin:2%
+}
+
+.thankyoubody a {
+
+    margin:2%;
+}
+
+.thankyou-2 {
+    padding: 30px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+    .thankyou-2 h1 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 4em;
+        letter-spacing: 3px;
+        color: #99D092;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .thankyou-2 p {
+        margin: 0;
+        font-size: 1.3em;
+        color: #aaa;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+    }
+
+.go-home {
+    color: #fff;
+    background: #99D092;
+    border: none;
+    padding: 10px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 10px 16px 1px rgb(60, 179, 113);
+}
+
+.police-guide {
+    color: #fff;
+    background: #375B60;
+    border: none;
+    padding: 10px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 10px 16px 1px rgb(60, 179, 113);
+}
+
+.thankyou-footer {
+    margin-top: auto;
+    background: #99D092;
+    padding: 6px;
+    text-align: center;
+}
+
+    .thankyou-footer p {
+        margin: 0;
+        padding: 4px;
+        color: rgb(78, 60, 179);
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+    }
+
+        .thankyou-footer p a {
+            text-decoration: none;
+            color: #5892FF;
+            font-weight: 600;
+        }
+
+@media (min-width:360px) {
+    h1 {
+        font-size: 4.5em;
+    }
+
+    .go-home {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:600px) {
+    .thankyoucontent {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .thankyou-1 {
+        height: initial;
+        max-width: 620px;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+    }
+
+
+    .newscard {
+        border: 1px solid #375B60;
+
+    }
+
+     .newscard img{
+        border: 1px solid #375B60;
+
+    }
+
+    .card-body {
+    
+    }
+
+    .writereviewbtn {
+        background-color:#99D092;
+    }
+
+
+.guidecard {
+    width: 40%;
+    margin: 20px;
+    float: left;
+    height: 100%;
+  }
+  .card h2 {
+    padding: 40px;
+    color:#99D092;
+    font-family:  Courier, monospace;
+    font-weight: bold;
+  }
+
+  .guideHead {
+    color:#99D092;
+    font-family: Courier, monospace;
+    font-weight: bold;
+  }
+
+
+}
+
+/*Guide to Police Page CSS*/

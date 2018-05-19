@@ -1,0 +1,25 @@
+.btn-floating {
+    margin: 5%;
+    font-size: 20px;
+}
+
+.btn-fb {
+    background-color: cornflowerblue;
+}
+
+.btn-tw {
+    background-color: deepskyblue;
+}
+
+.btn-gplus {
+    background-color: coral;
+}
+
+.btn-dribbble {
+    background-color: #EA4C89;
+}
+
+.footercontent {
+    color: black;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}

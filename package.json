@@ -1,0 +1,31 @@
+{
+  "name": "excusemeofficer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "auth0-js": "^9.5.1",
+    "aws-sdk": "^2.243.1",
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "final-form": "^4.6.1",
+    "mongoose": "^5.0.11",
+    "react-dom": "^16.3.2",
+    "react-final-form": "^3.4.0"
+  }
+}
